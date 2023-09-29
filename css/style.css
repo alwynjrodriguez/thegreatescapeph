@@ -281,7 +281,7 @@ a:focus {
   float: left;
   width: 115px;
   height: none;
-  padding: 10px;
+  position: absolute;
 }
 
 /*end header section*/
@@ -316,6 +316,10 @@ a:focus {
 .slider_section .detail-box h1 {
   font-weight: bold;
   font-size: 3rem;
+}
+
+.slider_section .detail-box h4 {
+  -webkit-text-stroke: 0.3px white;
 }
 
 .slider_section .detail-box p {
@@ -669,7 +673,7 @@ figcaption {
 /* end contact section */
 
 .client_section {
-  text-align: center;
+  text-align: justify;
 }
 
 .client_section #carouselExampleControls {
